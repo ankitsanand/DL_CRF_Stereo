@@ -78,8 +78,7 @@ def main():
 
     model = model.cuda()
   for epoch in range(num_epoch):
-    if(epoch%5==0):
-      learning_rate =learning_rate * 0.1
+    
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
     #scheduler = StepLR(optimizer, step_size=5, gamma=0.01)
 
