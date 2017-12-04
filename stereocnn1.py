@@ -19,5 +19,4 @@ class StereoCNN(nn.Module):
     phi_left = self.unary(l)
     phi_right = self.unary(r)
     return phi_left,phi_right
-    #corr = Correlation(self.k)(phi_left, phi_right)
-    #return corr
+    
