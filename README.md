@@ -1,2 +1,3 @@
-# L2LS
-Learning to Learning Symmetries
+CNN+CRF implementation for StereoVision
+
+This project is udner progress.
